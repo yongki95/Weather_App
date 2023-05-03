@@ -16,19 +16,20 @@
 <body>
     <main>
         <div class="container py-4">
-            <header class="pb-3 mb4">
-                <nav class="navbar navbar-light">
+            <header class="pb-3 mb-4">
+                <nav class="navbar">
                     <span class="fs-3">Weather</span>
-                    <form class="d-flex input-group w-auto">
+                    <form id="searchForm" class="d-flex input-group w-auto">
                         <input type="search" class="form-control rounded-start" name="location" placeholder="location" aria-label="Search">
-                        <button class="btn btn-outline-primary input-group-text border-1">Search</span>
+                        <button type="submit" class="btn btn-outline-primary input-group-text border-1">Search</button>
                     </form>
                 </nav>
+                <p id="error" class="text-end"></p>
             </header>
             <div class="row p-5 mb-4 bg-body-tertiary rounded-3">
                 <div class="col-4 container-fluid py-5 main_container" id="main_container">
                     <div class="container d-flex ps-0 align-items-center">
-                        <p class="fs-1 my-0">Seattle</p>
+                        <p Id="location" class="fs-1 my-0">Seattle</p>
                         <img src="#" alt="weather icon">
                     </div>
                     <p class="fs-3">United states of america</p>
@@ -37,10 +38,30 @@
                         <p class="fs-5">20c</p>
                     </div>
                 </div>
-                <div class="img col-8 m-auto" id="img_container">
-                  
+                <div class="d-flex justify-content-around p-5 col-8 m-auto" id="img_container">
+                    <div class="col-3">
+                        <p class="fs-4">Feelslike</p>
+                        <P class="border-bottom border-primary">20c</P>
+                    </div>
+                    <div class="col-3">
+                        <p class="fs-4">Wind</p>
+                        <p class="border-bottom border-success">20 kph</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="fs-4">Humidity</p>
+                        <p class="border-bottom border-info">72%</p>
+                    </div>
+                    
                     
                 </div>            
+            </div>
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    
+                </div>
+                <div class="col-md-6">
+
+                </div>
             </div>
         </div>
 
