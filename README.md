@@ -18,11 +18,11 @@ URL:https://yongki95.github.io/Weather_App/
 
 6. WeatherApi
 ### Description
-A website that shows user given location's weather
+A website that shows user given location's weather.
 
 ### Future Works
 
-1. Add section that shows forecast weather
+1. Add section that shows forecast weather.
 
 2. Change background based on the user given location.
 ### picture Author
